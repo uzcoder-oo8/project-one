@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homehero {
+  background-image: url("../src/assets/HeroSection.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abouthero {
+  background-image: url("../src/assets/AboutHero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutwrap {
+  background: linear-gradient(180deg, #ffdf2a 0%, #f0f0f0 100%);
+}
+
+.aboutImages {
+  background-image: url("../src/assets/InnerImages.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-play {
+  background-image: url("../src/assets/HomeWrapperPlay.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-store {
+  background-image: url("../src/assets/HomeWrapperApp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Location {
+  background-image: url("../src/assets/Location.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location_box {
+  background-image: url("../src/assets/LocationImages.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1467px;
+  height: 707px;
+  top: 494px;
+  left: 227px;
+  gap: 0px;
+  border-radius: 44px;
+  display: flex;
+}
+
+.bloghero {
+  width: 100%;
+  background-image: url("./assets/BlogImages.png");
+  background-size: cover;
+}
+
+.booksection {
+  background-image: url("../src/assets/BookImages.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.books {
+  width: 129px;
+  height: 40px;
+}
+
+.booksmain {
+  width: 200px;
+  height: 400px;
+  background-image: url("./assets/Books.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ul,
+li {
+  list-style: none;
+}
