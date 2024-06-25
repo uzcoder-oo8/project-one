@@ -52,6 +52,13 @@ export default function BookonePage1() {
           </button>
         </ul>
         <div className="max-w-[1500px] m-auto">
+          <h4 className="text-center font-[500] text-[20px] mt-[100px]">
+            let´s book your court
+          </h4>
+          <p className="text-center font-[600] text-[13px] mt-[10px] text-[#737373]">
+            Powered by bookandgo.app
+          </p>
+
           <div className="">
             <p className="text-[#737373] ml-[200px]">
               Select a different date directly in the calendar to see avaialble
